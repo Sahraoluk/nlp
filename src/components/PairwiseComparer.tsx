@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getWordDefinition, cosineSimilarity } from '../nlp/nlpEngine.ts';
+import { getWordDefinition, cosineSimilarity } from '../nlp/nlpEngine';
 import { Scale, ArrowRightLeft, Sparkles, Check, AlertCircle } from 'lucide-react';
 
 export const PairwiseComparer: React.FC = () => {

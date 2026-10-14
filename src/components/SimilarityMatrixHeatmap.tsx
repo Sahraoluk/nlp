@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { WordAnalysis } from '../nlp/nlpEngine.ts';
+import { WordAnalysis } from '../nlp/nlpEngine';
 
 interface SimilarityMatrixHeatmapProps {
   words: WordAnalysis[];

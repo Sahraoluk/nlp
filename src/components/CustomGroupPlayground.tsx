@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { analyzeWordGroup, GroupAnalysisResult } from '../nlp/nlpEngine.ts';
-import { SemanticVectorCanvas } from './SemanticVectorCanvas.tsx';
-import { SimilarityMatrixHeatmap } from './SimilarityMatrixHeatmap.tsx';
+import { analyzeWordGroup, GroupAnalysisResult } from '../nlp/nlpEngine';
+import { SemanticVectorCanvas } from './SemanticVectorCanvas';
+import { SimilarityMatrixHeatmap } from './SimilarityMatrixHeatmap';
 import {
   Wand2,
   Plus,

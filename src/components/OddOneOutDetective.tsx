@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { PRESET_SCENARIOS, ScenarioPreset } from '../nlp/scenarios.ts';
-import { analyzeWordGroup, GroupAnalysisResult } from '../nlp/nlpEngine.ts';
-import { SemanticVectorCanvas } from './SemanticVectorCanvas.tsx';
-import { SimilarityMatrixHeatmap } from './SimilarityMatrixHeatmap.tsx';
+import { PRESET_SCENARIOS, ScenarioPreset } from '../nlp/scenarios';
+import { analyzeWordGroup, GroupAnalysisResult } from '../nlp/nlpEngine';
+import { SemanticVectorCanvas } from './SemanticVectorCanvas';
+import { SimilarityMatrixHeatmap } from './SimilarityMatrixHeatmap';
 import {
   CheckCircle2,
   AlertTriangle,

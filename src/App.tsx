@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { TopNav } from './components/TopNav.tsx';
-import { NlpQuizGame } from './components/NlpQuizGame.tsx';
-import { CustomGroupPlayground } from './components/CustomGroupPlayground.tsx';
-import { PairwiseComparer } from './components/PairwiseComparer.tsx';
-import { NlpGuideView } from './components/NlpGuideView.tsx';
-import { SemanticVectorCanvas } from './components/SemanticVectorCanvas.tsx';
-import { SimilarityMatrixHeatmap } from './components/SimilarityMatrixHeatmap.tsx';
-import { analyzeWordGroup } from './nlp/nlpEngine.ts';
-import { PRESET_SCENARIOS } from './nlp/scenarios.ts';
+import { TopNav } from './components/TopNav';
+import { NlpQuizGame } from './components/NlpQuizGame';
+import { CustomGroupPlayground } from './components/CustomGroupPlayground';
+import { PairwiseComparer } from './components/PairwiseComparer';
+import { NlpGuideView } from './components/NlpGuideView';
+import { SemanticVectorCanvas } from './components/SemanticVectorCanvas';
+import { SimilarityMatrixHeatmap } from './components/SimilarityMatrixHeatmap';
+import { analyzeWordGroup } from './nlp/nlpEngine';
+import { PRESET_SCENARIOS } from './nlp/scenarios';
 import { Sparkles, Brain, Compass, Cpu, Layers } from 'lucide-react';
 
 export default function App() {

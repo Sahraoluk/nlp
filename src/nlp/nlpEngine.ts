@@ -1,4 +1,4 @@
-import { VOCABULARY_DATABASE, SEMANTIC_CATEGORIES, WordDefinition } from './vocabulary.ts';
+import { VOCABULARY_DATABASE, SEMANTIC_CATEGORIES, WordDefinition } from './vocabulary';
 
 export interface WordAnalysis {
   word: string;

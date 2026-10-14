@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { GAME_QUESTIONS, GameQuestion, getRandomQuestion } from '../nlp/questions.ts';
-import { evaluateGameSubmission, GameEvaluationResult } from '../nlp/nlpEngine.ts';
-import { sounds } from '../utils/audio.ts';
+import { GAME_QUESTIONS, GameQuestion, getRandomQuestion } from '../nlp/questions';
+import { evaluateGameSubmission, GameEvaluationResult } from '../nlp/nlpEngine';
+import { sounds } from '../utils/audio';
 import {
   Heart,
   Trophy,

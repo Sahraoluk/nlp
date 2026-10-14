@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { WordAnalysis } from '../nlp/nlpEngine.ts';
+import { WordAnalysis } from '../nlp/nlpEngine';
 import { Info, HelpCircle } from 'lucide-react';
 
 interface SemanticVectorCanvasProps {
