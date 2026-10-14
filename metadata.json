@@ -1,0 +1,6 @@
+{
+  "name": "SemantiK NLP - Absürt Kelime & Benzerlik Analizi",
+  "description": "Doğal Dil İşleme (NLP) tabanlı kelime vektörleri, kosinüs benzerliği ve absürt kelime (aykırı değer) tespit laboratuvarı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
